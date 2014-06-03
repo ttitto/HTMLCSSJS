@@ -57,6 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Task05PowerpointSlide\imgs\bg.png" />
+    <Content Include="Task05PowerpointSlide\imgs\logo.png" />
+    <Content Include="Task05PowerpointSlide\imgs\target.png" />
+    <Content Include="Task05PowerpointSlide\styles\Task05PowerpointSlide.less" />
+    <Content Include="Task05PowerpointSlide\styles\Task05PowerpointSlide.css.map">
+      <DependentUpon>Task05PowerpointSlide.css</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,8 +75,12 @@
     <Content Include="Task01HTMLTemplate\Task01HTMLTemplate.html" />
     <Content Include="Task02ParagraphsImages\Task02ParagraphsImages.html" />
     <Content Include="Task03RunnersHome\Task03RunnersHome.html" />
-    <Content Include="Task04HTMLLists\Task04HTMLLists.css" />
     <Content Include="Task04HTMLLists\Task04HTMLLists.html" />
+    <Content Include="Task05PowerpointSlide\styles\Task05PowerpointSlide.css">
+      <DependentUpon>Task05PowerpointSlide.less</DependentUpon>
+    </Content>
+    <Content Include="Task05PowerpointSlide\target.html" />
+    <Content Include="Task05PowerpointSlide\Task05PowerpointSlide.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
