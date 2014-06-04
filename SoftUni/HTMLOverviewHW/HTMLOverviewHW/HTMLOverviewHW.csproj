@@ -56,12 +56,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Task06DogeSocialNetwork\friends.html" />
+    <Content Include="Task06DogeSocialNetwork\home.html" />
     <Content Include="Task05PowerpointSlide\imgs\bg.png" />
     <Content Include="Task05PowerpointSlide\imgs\logo.png" />
     <Content Include="Task05PowerpointSlide\imgs\target.png" />
     <Content Include="Task05PowerpointSlide\styles\Task05PowerpointSlide.less" />
     <Content Include="Task05PowerpointSlide\styles\Task05PowerpointSlide.css.map">
       <DependentUpon>Task05PowerpointSlide.css</DependentUpon>
+    </Content>
+    <Content Include="Task06DogeSocialNetwork\imgs\profile-pic.jpg" />
+    <Content Include="Task06DogeSocialNetwork\profile.html" />
+    <Content Include="Task06DogeSocialNetwork\styles\Task06DogeSocialNetwork.css">
+      <DependentUpon>Task06DogeSocialNetwork.less</DependentUpon>
+    </Content>
+    <Content Include="Task06DogeSocialNetwork\styles\Task06DogeSocialNetwork.less" />
+    <Content Include="Task06DogeSocialNetwork\styles\Task06DogeSocialNetwork.css.map">
+      <DependentUpon>Task06DogeSocialNetwork.css</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

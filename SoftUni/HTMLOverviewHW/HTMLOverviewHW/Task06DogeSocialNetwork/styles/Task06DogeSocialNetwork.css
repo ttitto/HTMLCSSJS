@@ -1,0 +1,14 @@
+body {
+  background: #ADD8E6;
+}
+.profile-section .profile-pic {
+  border: 2px solid black;
+  width: 150px;
+}
+.profile-section .profile-label {
+  font-weight: bold;
+}
+.friends-section .friends-list > dt {
+  font-style: italic;
+}
+/*# sourceMappingURL=Task06DogeSocialNetwork.css.map */
