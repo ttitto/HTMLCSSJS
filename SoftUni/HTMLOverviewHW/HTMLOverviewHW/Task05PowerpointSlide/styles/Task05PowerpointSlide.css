@@ -1,17 +1,85 @@
+body,
+div,
+p,
+h1,
+h2,
+section,
+img {
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: block;
+}
+.clearfix:after {
+  clear: both;
+}
 html {
   width: 640px;
   height: 360px;
   background-image: url(../imgs/bg.png);
+  background-repeat: no-repeat;
   -moz-background-size: 640px 360px;
   -o-background-size: 640px 360px;
   -webkit-background-size: 640px 360px;
   background-size: 640px 360px;
-  background-repeat: no-repeat;
 }
-h1,
-p,
-h2,
-div {
-  color: white;
+html body {
+  font-family: Calibri;
+  font-size: 13px;
+}
+header {
+  margin: 15px 12px 0 15px;
+}
+header h1 {
+  margin: auto 0;
+  float: left;
+  color: #F3BE60;
+}
+header img {
+  margin: auto 0;
+  float: right;
+  width: 114px;
+}
+section article h2 {
+  font-size: 1.7em;
+  color: #FFF;
+  display: inline-block;
+}
+section article h2 span {
+  color: #D5B454;
+}
+section article code {
+  display: block;
+  color: #F7EBC6;
+  border: #747065 solid thin;
+  margin: 7px 0 4px 53px;
+  padding: 5px;
+  width: 522px;
+  font-size: 1.2em;
+  background: rgba(255, 255, 255, 0.13);
+}
+section article code span {
+  margin-left: 30px;
+}
+#square {
+  width: 6px;
+  height: 6px;
+  background-color: #F2B254;
+  margin: auto 5px auto 23px;
+  display: inline-block;
+  vertical-align: text-top;
+}
+footer span {
+  float: right;
+  font-size: 0.5em;
+  color: #9F9996;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=Task05PowerpointSlide.css.map */
