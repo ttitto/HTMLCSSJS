@@ -67,7 +67,7 @@ section article code {
 section article code span {
   margin-left: 30px;
 }
-#square {
+.square {
   width: 6px;
   height: 6px;
   background-color: #F2B254;

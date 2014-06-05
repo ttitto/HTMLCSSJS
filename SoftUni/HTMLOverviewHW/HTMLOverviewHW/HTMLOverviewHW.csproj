@@ -56,6 +56,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Task02ParagraphsImages\imgs\bear.jpg" />
+    <Content Include="Task02ParagraphsImages\imgs\lion.jpg" />
     <Content Include="Task06DogeSocialNetwork\friends.html" />
     <Content Include="Task06DogeSocialNetwork\home.html" />
     <Content Include="Task05PowerpointSlide\imgs\bg.png" />
@@ -96,9 +98,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Task02ParagraphsImages\imgs\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
