@@ -56,8 +56,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Task01SimpleTable\Task01SimpleTable.less" />
-    <Content Include="Task01SimpleTable\Task01SimpleTable.css.map">
+    <Content Include="Task01SimpleTable\styles\Task01SimpleTable.less" />
+    <Content Include="Task01SimpleTable\styles\Task01SimpleTable.css.map">
       <DependentUpon>Task01SimpleTable.css</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
@@ -71,7 +71,7 @@
     <Content Include="Task01SimpleTable\imgs\softuni-logo.png" />
     <Content Include="Task01SimpleTable\imgs\target.png" />
     <Content Include="Task01SimpleTable\target.html" />
-    <Content Include="Task01SimpleTable\Task01SimpleTable.css">
+    <Content Include="Task01SimpleTable\styles\Task01SimpleTable.css">
       <DependentUpon>Task01SimpleTable.less</DependentUpon>
     </Content>
     <Content Include="Task01SimpleTable\Task01SimpleTable.html" />
