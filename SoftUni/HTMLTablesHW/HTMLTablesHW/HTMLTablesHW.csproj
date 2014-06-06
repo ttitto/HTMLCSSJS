@@ -75,6 +75,10 @@
       <DependentUpon>Task01SimpleTable.less</DependentUpon>
     </Content>
     <Content Include="Task01SimpleTable\Task01SimpleTable.html" />
+    <Content Include="Task02ExamResults\Task02ExamResults.html" />
+    <Content Include="Task03NestedTables\imgs\target.png" />
+    <Content Include="Task03NestedTables\Task03NestedTables.css" />
+    <Content Include="Task03NestedTables\Task03NestedTables.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,15 @@
+﻿body {
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 62px;
+}
+
+td {
+    padding: 11px;
+}
+
+/*body > img {
+    position: fixed;
+    z-index: -2000;
+    opacity: 0.6;
+}*/
