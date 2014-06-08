@@ -60,6 +60,14 @@
     <Content Include="Task01SimpleTable\styles\Task01SimpleTable.css.map">
       <DependentUpon>Task01SimpleTable.css</DependentUpon>
     </Content>
+    <Content Include="Task04WebsiteHeader\imgs\notification.png" />
+    <Content Include="Task04WebsiteHeader\styles\Task04WebsiteHeader.css">
+      <DependentUpon>Task04WebsiteHeader.less</DependentUpon>
+    </Content>
+    <Content Include="Task04WebsiteHeader\styles\Task04WebsiteHeader.less" />
+    <Content Include="Task04WebsiteHeader\styles\Task04WebsiteHeader.css.map">
+      <DependentUpon>Task04WebsiteHeader.css</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -79,6 +87,13 @@
     <Content Include="Task03NestedTables\imgs\target.png" />
     <Content Include="Task03NestedTables\Task03NestedTables.css" />
     <Content Include="Task03NestedTables\Task03NestedTables.html" />
+    <Content Include="Task04WebsiteHeader\imgs\logo.png" />
+    <Content Include="Task04WebsiteHeader\imgs\search.png" />
+    <Content Include="Task04WebsiteHeader\Task04WebsiteHeader.html" />
+    <Content Include="Task05SoftuniLife\Task05SoftuniLife.css" />
+    <Content Include="Task05SoftuniLife\Task05SoftuniLife.html" />
+    <Content Include="Task06SoftuniLifeKeyboard\Task06SoftuniLifeKeyboard.css" />
+    <Content Include="Task06SoftuniLifeKeyboard\Task06SoftuniLifeKeyboard.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,29 @@
+﻿body > table {
+    color: #0000EE;
+    font-size: 30px;
+}
+
+td, th {
+    text-align: center;
+    padding: 4px 3px;
+    height: 100px;
+}
+
+table table td {
+    height: 45px;
+    padding: 0;
+}
+
+th button {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+button {
+    color: #0000EE;
+    width: 100%;
+    height: 100%;
+    font-size: 0.7em;
+    border: #707070 solid thin;
+    border-radius: 5px;
+}

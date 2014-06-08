@@ -1,0 +1,93 @@
+﻿body, header, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma;
+    font-size: 20px;
+
+    header {
+        background: #224465;
+        padding: 25px 30px;
+        color: #FFF;
+
+        table {
+            .inline {
+                display: inline;
+            }
+
+            td:last-of-type {
+                padding-left: 20px;
+            }
+
+            img.notification {
+                width: 20px;
+                margin-right: 20px;
+            }
+
+            .search-box {
+                width: 250px;
+                height: 25px;
+                margin-left: 20px;
+                border-top-left-radius: 7px;
+                border-bottom-left-radius: 7px;
+            }
+
+            .search-button {
+                height: 30px;
+                width: 30px;
+                background-color: white;
+                background-image: url(../imgs/search.png);
+                -moz-background-size: 25px;
+                -o-background-size: 25px;
+                -webkit-background-size: 25px;
+                background-size: 25px;
+                background-repeat: no-repeat;
+                background-position: right;
+                border-top-right-radius: 7px;
+                border-bottom-right-radius: 7px;
+            }
+        }
+
+        ul {
+            li {
+                display: inline-block;
+                margin: auto 30px;
+            }
+        }
+    }
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 0.7em;
+    position: relative;
+}
+
+.logo-text {
+    font-weight: bold;
+}
+
+.version {
+    font-size: 0.5em;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.right {
+    text-align: left;
+    float: right;
+}
+
+.triangle {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #FFF;
+    position: absolute;
+    bottom: 5px;
+    right: -20px;
+}
