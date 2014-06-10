@@ -1,0 +1,17 @@
+﻿body {
+}
+
+td {
+    height: 50px;
+    width: 50px;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+}
+
+    input[type='text'] {
+        text-align: right;
+    }

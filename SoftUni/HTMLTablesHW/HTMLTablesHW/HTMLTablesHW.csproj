@@ -94,6 +94,9 @@
     <Content Include="Task05SoftuniLife\Task05SoftuniLife.html" />
     <Content Include="Task06SoftuniLifeKeyboard\Task06SoftuniLifeKeyboard.css" />
     <Content Include="Task06SoftuniLifeKeyboard\Task06SoftuniLifeKeyboard.html" />
+    <Content Include="Task07Calculator\styles\Task07Calculator.css" />
+    <Content Include="Task07Calculator\Task07Calculator.html" />
+    <Content Include="Task07Calculator\scripts\Task07Calculator.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
