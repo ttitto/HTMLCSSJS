@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Task01SimpleForm")]
+[assembly: AssemblyTitle("HTMLFormsHW")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Task01SimpleForm")]
+[assembly: AssemblyProduct("HTMLFormsHW")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("58fc3bdd-9f4e-47d8-a518-8af5aa5f819c")]
+[assembly: Guid("dd033049-afce-4053-85b7-523704560579")]
 
 // Version information for an assembly consists of the following four values:
 //

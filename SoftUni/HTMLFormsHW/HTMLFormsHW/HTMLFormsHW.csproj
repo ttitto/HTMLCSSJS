@@ -6,12 +6,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion></ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B63656E7-5396-435B-8F96-F4D8C45BC651}</ProjectGuid>
+    <ProjectGuid>{E596D5BD-B187-44B6-AD6C-11CA6B042410}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Task01SimpleForm</RootNamespace>
-    <AssemblyName>Task01SimpleForm</AssemblyName>
+    <RootNamespace>HTMLFormsHW</RootNamespace>
+    <AssemblyName>HTMLFormsHW</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -64,15 +64,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="styles\Task01SimpleForm.css" />
-    <Content Include="target\target.html" />
-    <Content Include="target\target.png" />
-    <Content Include="Task01SimpleForm.html" />
+    <Content Include="Task01SimpleForm\styles\Task01SimpleForm.css" />
+    <Content Include="Task01SimpleForm\target\target.html" />
+    <Content Include="Task01SimpleForm\target\target.png" />
+    <Content Include="Task01SimpleForm\Task01SimpleForm.html" />
+    <Content Include="Task02FlightOrder\styles\Task02FlightOrder.css" />
+    <Content Include="Task02FlightOrder\target\target.html" />
+    <Content Include="Task02FlightOrder\target\target.png" />
+    <Content Include="Task02FlightOrder\Task02FlightOrder.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -86,9 +91,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3269</DevelopmentServerPort>
+          <DevelopmentServerPort>3813</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:3269/</IISUrl>
+          <IISUrl>http://localhost:3813/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl></CustomServerUrl>

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Flight Order</title>
+    <meta charset="utf-8" />
+    <link href="styles/Task02FlightOrder.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="clearfix">
+        <h1>
+            Flight Order
+        </h1>
+        <div class="left">
+            <label for="from">From</label>
+            <select name="from" id="from" class="inline">
+                <option selected="selected">enter a city</option>
+                <option value="Sofia">Sofia</option>
+                <option value="Varna">Varna</option>
+            </select>
+            <label for="dep-date">Departure Date</label>
+            <input type="date" name="dep-date" id="dep-date" />
+            <label for="ret-date">Return Date</label>
+            <input type="date" name="ret-date" id="ret-date">
+            <div class="inline">
+                <div class="inline">
+                    <label for="plus12">12+</label>
+                    <input type="number" name="plus12" id="plus12" min="12">
+                </div>
+
+                <div class="inline">
+                    <label for="2-12">2-12</label>
+                    <input type="number" name="2-12" id="2-12" min="2" max="12">
+                </div>
+                <div class="inline">
+                    <label for="0-2">0-2</label>
+                    <input type="number" name="0-12" id="0-12" min="0" max="2">
+                </div>
+            </div>
+        </div>
+
+        <div class="left">
+            <label for="destination">To</label>
+            <select name="destination" id="destination" class="inline">
+                <option selected="selected">enter a city</option>
+                <option value="Sofia">Sofia</option>
+                <option value="Varna">Varna</option>
+            </select>
+            <div>
+                <input type="checkbox" class="inline" name="directs" id="directs">
+                <label for="directs" class="inline">Prefer directs</label>
+            </div>
+            <label for="time-interval-start">Time Interval</label>
+            <div>
+                <input type="time" name="time-interval-start" id="time-interval-start" class="inline">
+                <input type="time" name="time-interval-end" id="time-interval-end" class="inline">
+            </div>
+            <label for="time-interval-start">Time Interval</label>
+            <div>
+                <input type="time" name="time-interval-start" id="time-interval-start" class="inline">
+                <input type="time" name="time-interval-end" id="time-interval-end" class="inline">
+            </div>
+            <label for="category">Choose class</label>
+            <select name="category" id="category">
+                <option value="Economy" selected="selected">Economy</option>
+                <option value="Business">Business</option>
+            </select>
+            <button>Search</button>
+        </div>
+    </form>
+</body>
+</html>
