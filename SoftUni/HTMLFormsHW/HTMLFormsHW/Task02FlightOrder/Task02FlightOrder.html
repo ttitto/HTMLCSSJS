@@ -6,16 +6,18 @@
     <link href="styles/Task02FlightOrder.css" rel="stylesheet" />
 </head>
 <body>
-    <form class="clearfix">
+    <form class="clearfix" method="get" action="">
         <h1>
             Flight Order
         </h1>
         <div class="left">
             <label for="from">From</label>
             <select name="from" id="from" class="inline">
-                <option selected="selected">enter a city</option>
+                <option selected="selected" disabled="disabled">
+                    enter a city
                 <option value="Sofia">Sofia</option>
                 <option value="Varna">Varna</option>
+
             </select>
             <label for="dep-date">Departure Date</label>
             <input type="date" name="dep-date" id="dep-date" />
@@ -41,7 +43,7 @@
         <div class="left">
             <label for="destination">To</label>
             <select name="destination" id="destination" class="inline">
-                <option selected="selected">enter a city</option>
+                <option disabled="disabled" selected="selected">enter a city</option>
                 <option value="Sofia">Sofia</option>
                 <option value="Varna">Varna</option>
             </select>
