@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fakebook</title>
+    <meta charset="utf-8" />
+    <link href="styles/Task04Fakebook.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>fakebook<span>&reg;</span></h1>
+    <hgroup>
+        <h2>Registration</h2>
+        <h4>It is safe and it will always be!</h4>
+    </hgroup>
+    <section class="no-important">
+        <form method="post" action="">
+            <fieldset>
+                <legend>None-Important Information</legend>
+                <div>
+                    <input type="text" name="firstName" placeholder="First Name">
+                    <input type="text" name="lastName" placeholder="Last Name">
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Your Email" pattern="">
+                    <input type="tel" name="tel" placeholder="Phone Number">
+                </div>
+                <div>
+                    <input type="password" name="pass" placeholder="Your Password">
+                    <input type="url" name="url" placeholder="Website">
+                </div>
+
+                <label class="block" for="birthDate">Birthday</label>
+                <input class="block" type="datetime-local" name="birthDate" id="birthDate">
+
+                <span>
+                    <input type="radio" name="sex" id="female" value="F">
+                    <label for="female">Female</label>
+                </span>
+                <span>
+                    <input type="radio" name="sex" id="male" value="M">
+                    <label for="male">Male</label>
+                </span>
+                <span>
+                    <input type="radio" name="sex" id="other" value="O" checked="checked">
+                    <label for="other">Other</label>
+                </span>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

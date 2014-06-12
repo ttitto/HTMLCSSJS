@@ -72,6 +72,12 @@
     <Content Include="Task02FlightOrder\target\target.html" />
     <Content Include="Task02FlightOrder\target\target.png" />
     <Content Include="Task02FlightOrder\Task02FlightOrder.html" />
+    <Content Include="Task03Wordpress\imgs\wordpress-logo.jpg" />
+    <Content Include="Task03Wordpress\imgs\wordpress-logos-300px-12.jpg" />
+    <Content Include="Task03Wordpress\styles\Task03Wordpress.css" />
+    <Content Include="Task03Wordpress\Task03Wordpress.html" />
+    <Content Include="Task04Fakebook\styles\Task04Fakebook.css" />
+    <Content Include="Task04Fakebook\Task04Fakebook.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

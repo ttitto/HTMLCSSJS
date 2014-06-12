@@ -1,0 +1,27 @@
+﻿body {
+}
+
+header img {
+    width: 450px;
+}
+
+.upload {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+    .upload > label, .upload > input, .search > label, .search > input {
+        height: 20px;
+    }
+
+.search {
+    width: 100%;
+    position: relative;
+}
+
+    .search input[type="image"] {
+        vertical-align: text-bottom;
+        height: 34px;
+        position: absolute;
+        bottom: -3px;
+    }

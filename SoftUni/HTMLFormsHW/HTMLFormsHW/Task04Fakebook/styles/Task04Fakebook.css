@@ -1,0 +1,7 @@
+﻿html, body, form, fieldset, legend, div, p, span, h1, h2, h4 {
+    margin: 0;
+    padding: 0;
+}
+.block{
+    display:block;
+}
