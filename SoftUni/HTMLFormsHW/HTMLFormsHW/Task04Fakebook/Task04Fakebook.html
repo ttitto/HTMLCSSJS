@@ -11,8 +11,9 @@
         <h2>Registration</h2>
         <h4>It is safe and it will always be!</h4>
     </hgroup>
-    <section class="no-important">
-        <form method="post" action="">
+    <form method="post" action="" class="clearfix">
+        <!-- LEFT PART OF THE FORM -->
+        <section class="no-important-info">
             <fieldset>
                 <legend>None-Important Information</legend>
                 <div>
@@ -31,20 +32,62 @@
                 <label class="block" for="birthDate">Birthday</label>
                 <input class="block" type="datetime-local" name="birthDate" id="birthDate">
 
-                <span>
+                <span class="sex">
                     <input type="radio" name="sex" id="female" value="F">
                     <label for="female">Female</label>
                 </span>
-                <span>
+                <span class="sex">
                     <input type="radio" name="sex" id="male" value="M">
                     <label for="male">Male</label>
                 </span>
-                <span>
+                <span class="sex">
                     <input type="radio" name="sex" id="other" value="O" checked="checked">
                     <label for="other">Other</label>
                 </span>
             </fieldset>
-        </form>
-    </section>
+            <input type="reset" value="Clear Form">
+        </section>
+        <!-- RIGHT PART OF THE FORM -->
+        <section class="important-info">
+            <fieldset>
+                <legend>Important Information *required</legend>
+                <div>
+                    <select name="country" id="country" required>
+                        <option value="Country" disabled selected>Country</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="USA">USA</option>
+                        <option value="Germany">Germany</option>
+                    </select>
+                    <input type="text" name="village" placeholder="Village" required>
+                    <input type="text" name="district" placeholder="District" required>
+                </div>
+                <div>
+                    <input type="text" name="street" placeholder="Street" required>
+                    <input type="text" class="shorter" name="nr" placeholder="Nr" required>
+                    <input type="text" class="shorter" name="floor" placeholder="Floor" required>
+                    <input type="text" class="shorter" name="app" placeholder="Ap Nr" required>
+                </div>
+                <div>
+                    <span id="door-colors">
+                        <label for="door-color" class="block">Door Color</label>
+                        <input type="color" name="door-color" id="door-color" required>
+                    </span>
+                    <input type="text" name="water-meter" placeholder="Water meter Nr">
+                    <select name="panties-size" id="panties-size" required>
+                        <option value="aunt-panties-size" selected disabled>Aunt Panties' Size</option>
+                        <option value="32">32</option>
+                        <option value="44">44</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block" for="more-info">More Personal Information</label>
+                    <textarea name="more-info" id="more-info" rows="5" placeholder="Give Us More Information!!!" required></textarea>
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Register">
+        </section>
+    </form>
 </body>
 </html>
