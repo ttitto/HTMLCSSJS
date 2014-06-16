@@ -1,0 +1,41 @@
+﻿html, body, img, h1, h2, meter, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 10px 12px;
+}
+
+    body > section {
+        padding: 25px;
+        background-color: #FFC0CB;
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+        body > section h1 {
+            text-align: center;
+            margin-bottom:10px;
+        }
+        .inner-section{
+            display:inline-block;
+        }
+.inner-section h2 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom:5px;
+}
+.user img{
+    display:block;
+    margin-bottom:7px;
+}
+.user p{
+    margin-bottom:4px;
+}
+.user meter{
+    width:200px;
+    height:25px;
+}
