@@ -1,0 +1,82 @@
+﻿html, body, p, h1, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #2C425A;
+    padding-top:30px;
+}
+    /*body:before, body:after, article:before, article:after{
+    content:"";
+    display:block;
+}
+body::after, article:after{
+    clear:both;
+    height:0;
+}*/
+
+    section > h1 {
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+a {
+    text-decoration: none;
+    color: #2C425A;
+}
+
+section {
+    width: 555px;
+    float:left;
+}
+
+article {
+    width: 160px;
+    display: inline-block;
+    border: #D9EEFA solid thin;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+    article img {
+        display: inline-block;
+        width: 160px;
+        height: 80px;
+        margin: 10px auto;
+    }
+
+    article .price {
+        display: block;
+        float: right;
+        padding: 10px 18px;
+        background-color: #2C425A;
+        color: #FFF;
+        border-top-left-radius: 10px;
+    }
+
+form {
+    background-color: #F7FCFF;
+    float: left;
+    height:100%;
+    margin-left:5px;
+}
+
+fieldset .min {
+    float: left;
+}
+
+fieldset .max {
+    float: right;
+}
+
+fieldset .center {
+    display: block;
+    text-align: center;
+}
