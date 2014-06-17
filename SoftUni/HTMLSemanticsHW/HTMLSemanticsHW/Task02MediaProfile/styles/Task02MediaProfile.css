@@ -18,24 +18,47 @@ body {
 
         body > section h1 {
             text-align: center;
-            margin-bottom:10px;
+            margin-bottom: 10px;
         }
-        .inner-section{
-            display:inline-block;
+/*INNER SECTIONS*/
+.inner-section {
+    display: inline-block;
+}
+
+    .inner-section h2 {
+        font-size: 1em;
+        font-weight: normal;
+        margin-bottom: 5px;
+    }
+/*USER SECTION*/
+.user img {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.user p {
+    margin-bottom: 4px;
+}
+
+.user meter {
+    width: 200px;
+    height: 25px;
+}
+/*AUDIO SECTION*/
+.audio audio {
+    display: block;
+    margin-bottom: 5px;
+}
+
+    .audio audio:first-of-type {
+        background-color: #000;
+        height: 150px;
+        position: relative;
+    }
+
+        .audio audio:first-of-type::-webkit-media-controls-panel {
+            vertical-align: middle;
+            position: absolute;
+            top: 40px;
         }
-.inner-section h2 {
-    font-size: 1em;
-    font-weight: normal;
-    margin-bottom:5px;
-}
-.user img{
-    display:block;
-    margin-bottom:7px;
-}
-.user p{
-    margin-bottom:4px;
-}
-.user meter{
-    width:200px;
-    height:25px;
-}
+/*VIDEO SECTION*/
