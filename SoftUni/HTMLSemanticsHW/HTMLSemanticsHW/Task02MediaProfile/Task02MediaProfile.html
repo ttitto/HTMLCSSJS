@@ -10,8 +10,10 @@
         <h1>Profile</h1>
         <section class="user inner-section">
             <h2>User: Kent</h2>
-            <img src="http://placehold.it/240x195" alt="">
-            <p>Profile completed 60%</p>
+            <figure>
+                <img src="http://placehold.it/240x195" alt="">
+                <figcaption>Profile completed 60%</figcaption>
+            </figure>
             <meter value="60" min="0" max="100"></meter>
         </section>
 
@@ -32,9 +34,13 @@
         </section>
         <section class="video inner-section">
             <h2>Uploaded Video Files</h2>
-            <video width="453" height="255" preload="auto" controls>
+            <video width="453" height="255" preload="auto" controls poster="http://leanbackplayer.com/videos/poster/elephants_dream_640x360.jpg">
                 <source src="http://leanbackplayer.com/videos/360p/elephants_dream_640x360_2.30.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
                 <source src="http://leanbackplayer.com/videos/360p/elephants_dream_640x360_2.30.ogv" type='video/ogg; codecs="theora, vorbis"' />
+                <track src="subtitles/subtitles.srt" kind="subtitles" label="English" lang="en" />
+                <object data="http://leanbackplayer.com/videos/360p/elephants_dream_640x360_2.30.mp4" width="453" height="255">
+                    <embed src="http://leanbackplayer.com/videos/360p/elephants_dream_640x360_2.30.ogv" width="453" height="255" />
+                </object>
             </video>
         </section>
     </section>

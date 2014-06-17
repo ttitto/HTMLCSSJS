@@ -1,0 +1,42 @@
+﻿html, body, h1, main, ul, li, a, iframe {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Tahoma;
+    font-size:22px;
+}
+section {
+    background-color: #000;
+    display: inline-block;
+    padding: 20px;
+}
+
+h1 {
+    color:#F2C106;
+    text-align:center;
+}
+
+main {
+}
+
+iframe {
+    width:181px;
+    height:138px;
+    float:left;
+    border:solid #F2C106 thin;
+}
+
+ul {
+    list-style-type:none;
+    margin-left:20px;
+    float:left;
+}
+
+li {
+}
+a{
+    text-decoration:none;
+    color:#FFF;
+    font-style:italic;
+}

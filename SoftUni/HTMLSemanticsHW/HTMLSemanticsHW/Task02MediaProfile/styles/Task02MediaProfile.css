@@ -1,4 +1,4 @@
-﻿html, body, img, h1, h2, meter, p {
+﻿html, body, img, h1, h2, meter, p, figure, audio, video {
     margin: 0;
     padding: 0;
 }
@@ -23,7 +23,17 @@ body {
 /*INNER SECTIONS*/
 .inner-section {
     display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
 }
+
+    .inner-section:first-of-type {
+        margin-left: 0;
+    }
+
+    .inner-section:last-of-type {
+        margin-left: 5px;
+    }
 
     .inner-section h2 {
         font-size: 1em;
@@ -36,7 +46,7 @@ body {
     margin-bottom: 7px;
 }
 
-.user p {
+.user figcaption {
     margin-bottom: 4px;
 }
 
@@ -57,8 +67,7 @@ body {
     }
 
         .audio audio:first-of-type::-webkit-media-controls-panel {
-            vertical-align: middle;
+            width: 260px;
             position: absolute;
             top: 40px;
         }
-/*VIDEO SECTION*/
