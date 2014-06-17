@@ -1,0 +1,8 @@
+﻿html, body, h1,h2,header, nav, ul, li, a,input, button {
+    margin:0;
+    padding:0;
+}
+#wrapper{
+    width:72%;
+    margin:0 auto;
+}

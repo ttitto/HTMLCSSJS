@@ -76,6 +76,10 @@
     <Content Include="Task03MagicCarGallery\img\5.jpg" />
     <Content Include="Task03MagicCarGallery\styles\Task03MagicCarGallery.css" />
     <Content Include="Task03MagicCarGallery\Task03MagicCarGallery.html" />
+    <Content Include="Task04BGJUG\images\search-btn.png" />
+    <Content Include="Task04BGJUG\images\target.png" />
+    <Content Include="Task04BGJUG\styles\Task04BGJUG.css" />
+    <Content Include="Task04BGJUG\Task04BGJUG.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
