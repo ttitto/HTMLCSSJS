@@ -27,7 +27,7 @@
             </div>
             <hr>
         </header>
-        <main>
+        <main class="clearfix">
             <aside class="left">
                 <hr />
                 <nav>
@@ -70,7 +70,52 @@
                 <hr />
                 <small><a href="#">← Previous Entries</a></small>
             </section>
+            <aside class="right">
+                <form action="get">
+                    <fieldset>
+                        <label for="lang">Language</label>
+                        <hr />
+                        <select name="lang" id="lang">
+                            <option value="BG">Bulgarian</option>
+                        </select>
+                    </fieldset>
+                </form>
+                <label for="blog">Blogroll</label>
+                <hr />
+            </aside>
         </main>
+
     </div>
+    <footer>
+        <p class="twitter">
+            <img src="images/twitter-balloon.png" />
+            <span>Set yout Twitter account name in your settings to use the TwitterBar Section</span>
+        </p>
+        <div class="black">
+            <section id="bgjug">BGJUG - Java Bulgarian User Group</section>
+            <section id="pages">
+                <span>pages</span>
+                <ul>
+                    <li><a href="#">About BGJUG</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </section>
+            <section id="latest">
+                <span>The latest</span>
+                <a href="#">An Architecture for E-Voting </a>
+                <p>E-voting is a hot topic in my country, and has been discussed [...]</p>
+            </section>
+            <section id="more">
+                <span>more</span>
+                <p>Thanks for dropping by! Feel free to join the discussion by leaving comments, and stay updated by subscribing to the <a href="#">RSS feed</a></p>
+            </section>
+            <section id="about">
+                <p>&copy; 2011 BGJUG - Java</p>
+                <p>Bulgarian User Group</p>
+            </section>
+        </div>
+    </footer>
+
 </body>
 </html>

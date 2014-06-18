@@ -1,8 +1,143 @@
-﻿html, body, h1,h2,header, nav, ul, li, a,input, button {
-    margin:0;
-    padding:0;
+﻿/*INITIAL RESET*/
+html, body, h1, h2, header, nav, ul, li, a, input, button, select, fieldset, form, div, span, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-#wrapper{
-    width:72%;
-    margin:0 auto;
+
+hr {
+    margin: 0;
 }
+
+body {
+    line-height: 1;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+ol, ul {
+    list-style: none;
+}
+/*FLOAT CLEARFIX*/
+.clearfix {
+    zoom: 1;
+}
+
+    .clearfix:before, .clearfix:after {
+        content: "";
+        display: block;
+    }
+
+    .clearfix:after {
+        clear: both;
+        height: 0;
+    }
+
+/*HEADER*/
+h1 {
+    font-size: 1.4em;
+    margin: 10px auto 50px 10px;
+}
+
+/*NAVIGATION*/
+nav {
+    float: left;
+}
+
+header ul li {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 40px;
+}
+
+    header ul li:first-of-type {
+        margin-left: 10px;
+    }
+
+header li a {
+    color: gray;
+    font-family: 'Lucida Sans';
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+/*SEARCH BOX*/
+.search-form {
+    border: #E9E9E9 inset thin;
+    line-height: 23px;
+    height: 23px;
+    font-size: 0.7em;
+    padding: 5px;
+    background-color: #F7F7F7;
+    width: 25.5%;
+}
+
+    .search-form input {
+        background-color: #F7F7F7;
+    }
+
+.search-btn {
+    float: right;
+}
+
+form {
+    float: right;
+}
+
+hr {
+    margin-top: 10px;
+}
+/*WRAPPER*/
+#wrapper {
+    width: 72%;
+    margin: 0 auto;
+}
+
+/*ASIDE*/
+aside {
+    width: 21.2%;
+    padding: 28px 1%;
+    vertical-align: top;
+}
+
+    aside.right {
+        float: right;
+    }
+
+    aside.left {
+        float: left;
+    }
+
+main section {
+    display: inline-block;
+    width: 49%;
+    padding: 28px 20px 0 20px;
+}
+
+/*FOOTER*/
+/*TWITTER BAR*/
+.twitter {
+    background-color: gray;
+}
+
+    .twitter img {
+        margin-left: 14%;
+    }
+/*BLACK FOOTER*/
+.black {
+    background-color: black;
+    color: #FFF;
+}
+
+    .black > section:first-of-type {
+        margin-left: 14%;
+    }
+
+    .black > section {
+        display: inline-block;
+        vertical-align: top;
+        width: 13.30%;
+        margin-left: 2.07%;
+    }
