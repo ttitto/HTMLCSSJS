@@ -65,9 +65,9 @@ header li a {
 }
 /*SEARCH BOX*/
 .search-form {
-    border: #E9E9E9 inset thin;
-    line-height: 23px;
-    height: 23px;
+    border: #E9E9E9 inset 2px;
+    line-height: 20px;
+    height: 20px;
     font-size: 0.7em;
     padding: 5px;
     background-color: #F7F7F7;
@@ -82,11 +82,11 @@ header li a {
     float: right;
 }
 
-form {
+form.search-form {
     float: right;
 }
 
-hr {
+html > body hr {
     margin-top: 10px;
 }
 /*WRAPPER*/
@@ -95,20 +95,11 @@ hr {
     margin: 0 auto;
 }
 
-/*ASIDE*/
-aside {
-    width: 21.2%;
-    padding: 28px 1%;
-    vertical-align: top;
+main a {
+    color: #2281C3;
+    font-size: 0.8em;
+    text-decoration: none;
 }
-
-    aside.right {
-        float: right;
-    }
-
-    aside.left {
-        float: left;
-    }
 
 main section {
     display: inline-block;
@@ -116,10 +107,96 @@ main section {
     padding: 28px 20px 0 20px;
 }
 
+section > hr {
+    margin-bottom: 25px;
+}
+/*ARTICLE*/
+article h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+article header p {
+    font-size: .7em;
+}
+
+article header > p, article header a {
+    color: gray;
+    text-decoration: none;
+}
+
+article header > p {
+    margin-bottom: 30px;
+}
+
+article .leave-comment {
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+article .content {
+    font-size: 0.6em;
+    line-height: 1.8em;
+    margin-bottom: 25px;
+}
+
+article footer {
+    margin-bottom: 25px;
+}
+
+
+/*ASIDE*/
+aside {
+    width: 20.8%;
+    padding: 28px 1%;
+}
+
+    aside > hr {
+        margin-bottom: 10px;
+    }
+    /*RIGTH*/
+    aside.right {
+        float: right;
+        font-size: 0.7em;
+    }
+
+        aside.right select {
+            border: gray solid 1px;
+            border-radius: 2px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+    /*LEFT*/
+    aside.left {
+        float: left;
+    }
+
+        aside.left li {
+            margin: 5px 0;
+        }
+        aside.left>hr{
+            margin-top:40px;
+        }
+
+
+
 /*FOOTER*/
+footer section > span {
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 15px;
+}
 /*TWITTER BAR*/
 .twitter {
-    background-color: gray;
+    background-color: #F7F7F7;
+    margin-top: 20px;
+    color: #8B778B;
+    font-size: 0.9em;
+    font-style: italic;
+    padding: 17px 0;
 }
 
     .twitter img {
@@ -129,6 +206,7 @@ main section {
 .black {
     background-color: black;
     color: #FFF;
+    padding-top: 25px;
 }
 
     .black > section:first-of-type {
@@ -141,3 +219,22 @@ main section {
         width: 13.30%;
         margin-left: 2.07%;
     }
+
+    .black a {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 0.9em;
+    }
+
+#bgjug {
+    font-size: 1.2em;
+}
+
+#pages li {
+    margin-bottom: 12px;
+}
+
+#latest p, #more p, #about p {
+    color:#999;
+    font-size:0.7em;
+}

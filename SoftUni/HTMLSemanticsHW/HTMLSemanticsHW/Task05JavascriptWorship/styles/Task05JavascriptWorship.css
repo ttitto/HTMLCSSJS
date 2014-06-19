@@ -1,0 +1,8 @@
+﻿body{
+    margin:2px;
+}
+canvas{
+    width:240px;
+    height:260px;
+    border:dotted red 3px;
+}
