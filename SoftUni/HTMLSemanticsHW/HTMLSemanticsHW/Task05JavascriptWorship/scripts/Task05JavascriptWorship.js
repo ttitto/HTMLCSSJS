@@ -10,7 +10,6 @@ function domloaded() {
     ctx.fillText("I love JavaScript", 10, 50);
 
     ctx.fillStyle = "#323431";
-    ctx.font = "75px Geometr212 BkCn BT Heavy";
-    ctx.fontWeight = "bold";
-    ctx.fillText("JS", 90, 200);
+    //ctx.font = "90px NeutraText-Bold";
+    //ctx.fillText("JS", 90, 200);
 }

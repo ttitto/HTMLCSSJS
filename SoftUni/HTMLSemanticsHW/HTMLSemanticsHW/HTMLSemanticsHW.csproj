@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Task02MediaProfile\subtitles\subtitles.srt" />
-    <Content Include="Task05JavascriptWorship\fonts\Urdu_Emad_Nastaliq.ttf" />
+    <Content Include="Task05JavascriptWorship\fonts\NeutraText-Bold.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -83,7 +83,9 @@
     <Content Include="Task04BGJUG\styles\Task04BGJUG.css" />
     <Content Include="Task04BGJUG\Task04BGJUG.html" />
     <Content Include="Task05JavascriptWorship\img\target.png" />
+    <Content Include="Task05JavascriptWorship\scripts\neutra_text_bold.typeface.js" />
     <Content Include="Task05JavascriptWorship\scripts\Task05JavascriptWorship.js" />
+    <Content Include="Task05JavascriptWorship\scripts\typeface-0.15.js" />
     <Content Include="Task05JavascriptWorship\styles\Task05JavascriptWorship.css" />
     <Content Include="Task05JavascriptWorship\Task05JavascriptWorship.html" />
     <Content Include="Web.config" />

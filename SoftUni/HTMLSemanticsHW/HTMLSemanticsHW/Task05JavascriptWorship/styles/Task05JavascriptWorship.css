@@ -1,8 +1,23 @@
-﻿body{
-    margin:2px;
+﻿@font-face {
+    font-family: 'Neutra Text';
+    src: url('../fonts/NeutraText-Bold.ttf') format('truetype');
 }
-canvas{
-    width:240px;
-    height:260px;
-    border:dotted red 3px;
+
+body {
+    margin: 2px;
+}
+
+canvas {
+    width: 240px;
+    height: 260px;
+    border: dotted red 3px;
+    position: relative;
+}
+
+.typeface-js {
+    font-family: 'Neutra Text';
+    position: absolute;
+    top: 118px;
+    left: 89px;
+    font-size: 90px;
 }
