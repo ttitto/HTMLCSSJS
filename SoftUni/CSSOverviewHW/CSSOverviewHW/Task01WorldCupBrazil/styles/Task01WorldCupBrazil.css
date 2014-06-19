@@ -1,0 +1,75 @@
+﻿/*#region RESET */
+body, div, table, thead, tbody, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+/*#endregion */
+/*#region COMMON */
+body {
+    font-size: 30px;
+    font-family: Tahoma;
+}
+
+#wrapper {
+    padding: 20px;
+    background-color: #00923E;
+    display: inline-block;
+}
+
+table {
+    border-spacing: 0;
+    border: solid 1px;
+    border-radius: 21px;
+}
+
+thead {
+    border-top-left-radius: 20px;
+    border-radius: 20px;
+}
+
+th, td {
+    border: #000 solid 1px;
+    padding: 10px 10px;
+}
+/*#endregion */
+
+/*THEAD*/
+th {
+    background-color: #F8C711;
+}
+
+    th:first-of-type {
+        border-top-left-radius: 20px;
+    }
+
+    th:last-of-type {
+        border-top-right-radius: 20px;
+    }
+/*TBODY*/
+tr:nth-child(2n+1) {
+    background-color: #FFF;
+}
+
+tr:nth-child(2n) {
+    background-color: #C8C8C8;
+}
+
+td {
+    font-size: 0.7em;
+}
+
+input[type="submit"] {
+    background-image: url(../img/red-bet-btn.png);
+    height: 46px;
+}
+
+    input[type="submit"]:after {
+    }
+/*LAYOUT*/
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
