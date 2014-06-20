@@ -11,7 +11,7 @@ body {
 }
 
 #wrapper {
-    padding: 20px;
+    padding: 18px 20px 20px 20px;
     background-color: #00923E;
     display: inline-block;
 }
@@ -30,12 +30,16 @@ thead {
 th, td {
     border: #000 solid 1px;
     padding: 10px 10px;
+    text-align: center;
+    vertical-align:middle;
 }
 /*#endregion */
 
 /*THEAD*/
 th {
     background-color: #F8C711;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
     th:first-of-type {
@@ -55,21 +59,126 @@ tr:nth-child(2n) {
 }
 
 td {
-    font-size: 0.7em;
+    font-size: 0.65em;
 }
 
-input[type="submit"] {
-    background-image: url(../img/red-bet-btn.png);
+tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 20px;
+}
+
+tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 20px;
+}
+
+th.right {
+    padding-left: 69px;
+}
+td.right{
+    padding-left:69px;
+}
+td.right:nth-of-type(n+2){
+    padding-left:74px;
+}
+    /*FLAGS*/
+    .right.flag:after, .left.flag:before {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: 0;
+        display: inline-block;
+        vertical-align:  middle;
+        width: 30px;
+        height: 20px;
+        content: "";
+    }
+
+    .right.flag:after {
+        margin-left: 6px;
+        margin-right:-1px;
+    }
+
+.left.flag:before {
+    margin-right: 5px;
+}
+
+.brasil:after {
+    background-image: url(../img/flag-brasil.png);
+}
+
+.spain:after {
+    background-image: url(../img/flag-spain.png);
+}
+
+.italy:after {
+    background-image: url(../img/flag-italy.png);
+}
+
+.arg:after {
+    background-image: url(../img/flag-arg.png);
+}
+
+.germ:after {
+    background-image: url(../img/flag-germ.png);
+}
+
+.mexico:before {
+    background-image: url(../img/flag-mexico.png);
+}
+
+.neth:before {
+    background-image: url(../img/flag-neth.png);
+}
+
+.england:before {
+    background-image: url(../img/flag-engl.png);
+}
+
+.bosnia:before {
+    background-image: url(../img/flag-bosnia.png);
+}
+
+.port:before {
+    background-image: url(../img/flag-port.png);
+}
+
+
+
+input[type="button"] {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    display: block;
+    width: 46px;
     height: 46px;
 }
 
-    input[type="submit"]:after {
+    input[type="button"].red {
+        background-image: url(../img/red-bet-btn.png);
     }
+
+    input[type="button"].green {
+        background-image: url(../img/green-bet-btn.png);
+    }
+
+select {
+    width: 45px;
+    height: 44px;
+    font-size: 1em;
+}
+
+    select.red {
+        color: #F00;
+        background-color: #DCDCDC;
+    }
+
+    select.green {
+        color: green;
+    }
+
 /*LAYOUT*/
-.right {
+html > body .right {
     text-align: right;
 }
 
-.left {
+html > body .left {
     text-align: left;
 }
