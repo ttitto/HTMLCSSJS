@@ -1,0 +1,211 @@
+﻿/*#region INITIAL RESET */
+
+html, body, section, ul, li, header, div, span, footer, nav, aside, a, article {
+    margin: 0;
+    padding: 0;
+}
+/*#endregion */
+body {
+    width: 1582px;
+    font-family: Tahoma;
+    font-size: 60px;
+    background: url(../images/colorful_dots_on_black.jpg);
+}
+
+html > body {
+    zoom: 1;
+}
+
+body:before, body:after {
+    content: "";
+    display: block;
+}
+
+body:after {
+    clear: both;
+    height: 0;
+}
+/*#region HEADER */
+
+body > header {
+    background: -webkit-linear-gradient(left, #FF0000 0,#FF0000 531px, #008000 531px,#008000 1062px, #0000FF 1062px);
+    height: 86px;
+    text-align: center;
+    padding-top: 14px;
+    font-weight: bolder;
+    color: #FFFF00;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+/*#endregion */
+/*#region ASIDE */
+
+body > aside {
+    float: left;
+    background-color: #FFF;
+    opacity: 0.8;
+    width: 276px;
+    height: 292px;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin-right: 45px;
+    margin-left: 16px;
+}
+
+aside header {
+    font-size: .49em;
+    text-decoration: underline;
+    font-weight: 300;
+    margin-bottom: 9px;
+}
+
+aside nav ul {
+    list-style-type: none;
+}
+
+aside nav li {
+    display: block;
+    font-size: .30em;
+    padding: 8px 0;
+    border-radius: 10px;
+}
+
+    aside nav li:nth-of-type(1):hover {
+        background-color: #F00;
+    }
+
+    aside nav li:nth-of-type(2):hover {
+        background-color: #FFA500;
+    }
+
+    aside nav li:nth-of-type(3):hover {
+        background-color: #FFFF00;
+    }
+
+    aside nav li:nth-of-type(4):hover {
+        background-color: #008000;
+    }
+
+    aside nav li:nth-of-type(5):hover {
+        background-color: #0000FF;
+    }
+
+    aside nav li:nth-of-type(6):hover {
+        background-color: #800080;
+    }
+
+    aside nav li a {
+        color: #000;
+        text-decoration: none;
+        display: block;
+    }
+    aside nav li a:visited{
+        color:gray;
+    }
+
+        aside nav li a:before {
+            background-image: url(../img/check.png);
+            background-repeat: no-repeat;
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: bottom;
+            margin-right: 10px;
+        }
+/*#endregion */
+/*#region ARTICLE */
+section {
+    float: left;
+    vertical-align: top;
+    width: 1163px;
+}
+
+article {
+    background-color: #FFF;
+    opacity: 0.9;
+    display: inline-block;
+    font-size: 0.6em;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 13px;
+}
+
+    article header {
+        border-radius: 10px;
+        padding: 0 15px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+#webColors {
+    background-color: #F00;
+    color: #FFF;
+}
+
+#webSafeColors {
+    background-color: #FFA500;
+}
+
+#RGB {
+    background-color: #FFFF00;
+}
+
+#RGBA {
+    background-color: #008000;
+    color: #FFF;
+}
+
+#\#HSLHSV {
+    background-color: #0000FF;
+    color: #FFF;
+}
+
+#\#lorem {
+    background-color: #800080;
+    color: white;
+}
+
+/*ARTICLE CONTENT*/
+article > div {
+    font-size: 0.5em;
+}
+
+    article > div::first-letter {
+        font-size: 4.5em;
+        font-style: italic;
+        margin-left: 5px;
+    }
+
+    article > div:first-line {
+        font-style: italic;
+    }
+
+article > span {
+    font-size: 0.5em;
+    font-style: italic;
+    display:inline-block;
+    line-height:1.3em;
+}
+
+    article > span[lang="la"] {
+        color: #00008B;
+        /*display: inline-block;*/
+    }
+
+        article > span[lang="la"]:after, article > span[lang="la"]:before {
+            content: "\"";
+        }
+/*ARTICLE FOOTER*/
+
+article footer {
+    font-size: .5em;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+    article footer a {
+        color: gray;
+    }
+/*#endregion */

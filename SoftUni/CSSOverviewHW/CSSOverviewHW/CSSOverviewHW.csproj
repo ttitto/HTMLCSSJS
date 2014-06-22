@@ -79,12 +79,24 @@
     <Content Include="Task01WorldCupBrazil\img\target.png" />
     <Content Include="Task01WorldCupBrazil\styles\Task01WorldCupBrazil.css" />
     <Content Include="Task01WorldCupBrazil\Task01WorldCupBrazil.html" />
+    <Content Include="Task02ColorKitchen\ColorKitchen.html" />
+    <Content Include="Task02ColorKitchen\images\colorful_dots_on_black.jpg" />
+    <Content Include="Task02ColorKitchen\images\ColorKitchen.png" />
+    <Content Include="Task02ColorKitchen\img\check.png" />
+    <Content Include="Task02ColorKitchen\styles\Task02ColorKitchen.css" />
+    <Content Include="Task02ColorKitchen\target.html" />
+    <Content Include="Task03StudentBeforeExam\styles\Task03StudentBeforeExam.css" />
+    <Content Include="Task03StudentBeforeExam\target\target.html" />
+    <Content Include="Task03StudentBeforeExam\target\target.png" />
+    <Content Include="Task03StudentBeforeExam\Task03StudentBeforeExam.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Task03StudentBeforeExam\img\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
