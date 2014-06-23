@@ -1,0 +1,60 @@
+﻿html, body, div, p {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 12px;
+    padding-top: 6px;
+    font-family: Tahoma;
+}
+
+#outer {
+    width: 750px;
+    height: 294px;
+    border-top: dotted 7px yellow;
+    border-left: dashed 7px red;
+    border-bottom: double 10px blue;
+    border-right: solid green 15px;
+    box-shadow: rgba(0,0,0,.75) 21px 21px 7px;
+}
+
+p#cool {
+    font-size: 53px;
+    text-transform: uppercase;
+    margin: 15px auto 30px auto;
+    text-align: center;
+}
+
+#bounty {
+    height: 138px;
+    width: 668px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 100px;
+    border: blue solid 3px;
+    box-shadow: 0 0 0 3px green inset, 0 0 0 6px yellow inset, 0 0 0 9px red inset;
+}
+
+    #bounty > p {
+        font-size: 1.5rem;
+        margin-top: 24px;
+        margin-bottom:21px;
+    }
+
+    #bounty .no-button {
+        display: inline-block;
+        font-size: 1.23rem;
+        vertical-align:middle;
+        width: 232px;
+        height: 32px;
+        background: #D8921A;
+        border:4px outset #FFA500;
+        letter-spacing:-.01em;
+    }
+    .no-button.left{
+        margin-right:3px;
+    }
