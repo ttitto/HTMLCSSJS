@@ -27,6 +27,8 @@ p#cool {
     text-transform: uppercase;
     margin: 15px auto 30px auto;
     text-align: center;
+    -webkit-text-shadow: 14px 14px 15px gray;
+    text-shadow: 14px 14px 15px gray;
 }
 
 #bounty {
@@ -37,24 +39,63 @@ p#cool {
     border-radius: 100px;
     border: blue solid 3px;
     box-shadow: 0 0 0 3px green inset, 0 0 0 6px yellow inset, 0 0 0 9px red inset;
+    position: relative;
 }
 
     #bounty > p {
         font-size: 1.5rem;
         margin-top: 24px;
-        margin-bottom:21px;
+        margin-bottom: 21px;
+        -webkit-text-shadow: 13px 14px 15px gray;
+        text-shadow: 13px 14px 15px gray;
     }
 
     #bounty .no-button {
         display: inline-block;
         font-size: 1.23rem;
-        vertical-align:middle;
+        vertical-align: middle;
         width: 232px;
         height: 32px;
         background: #D8921A;
-        border:4px outset #FFA500;
-        letter-spacing:-.01em;
+        border: 4px outset #FFA500;
+        letter-spacing: -.01em;
     }
-    .no-button.left{
-        margin-right:3px;
+
+.no-button.left {
+    margin-right: 3px;
+}
+
+.baloon {
+    background: rgba(132,132,132,.7);
+    border-radius: 50px;
+    position: absolute;
+    border: 3px #FFF dashed;
+    box-shadow: 0 0 0 6px rgba(132,132,132,.7);
+}
+
+    .baloon.left {
+        width: 24px;
+        height: 24px;
+        top: 51px;
+        right: 100px;
+    }
+
+    .baloon.middle {
+        width: 39px;
+        height: 39px;
+        top: 1px;
+        right: 33px;
+    }
+
+    .baloon.right {
+        width: 150px;
+        height: 84px;
+        top: -74px;
+        right: -138px;
+        text-align: center;
+        color: white;
+        font-size: 23px;
+        padding-top: 9px;
+        line-height: 29px;
+        font-weight: bold;
     }
