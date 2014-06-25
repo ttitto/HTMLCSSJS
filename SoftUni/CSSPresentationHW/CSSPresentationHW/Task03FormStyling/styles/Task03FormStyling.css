@@ -1,0 +1,41 @@
+﻿
+html, body, form, fieldset, input, label {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3px;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+form {
+    width: 396px;
+    padding: 20px;
+    border-radius: 4px;
+    background-image: url(../img/formBackground.jpg);
+}
+
+fieldset {
+    border: none;
+}
+fieldset legend{
+    color:#FFF;
+    
+}
+fieldset legend:before{
+    content:"Step 1: ";
+}
+    fieldset div {
+        text-align: center;
+    }
+
+        fieldset div > label:not(.radio) {
+            width: 30%;
+            overflow: hidden;
+            float: left;
+        }

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Form Styling</title>
+    <meta charset="utf-8" />
+    <link href="styles/Task03FormStyling.css" rel="stylesheet" />
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset class="your">
+            <legend>Your details</legend>
+            <div><label>Name</label><input type="text" name="name" id="name" placeholder="First and last name" /></div>
+            <div><label>Email</label><input type="email" name="email" id="email" placeholder="example@domain.com" /></div>
+            <div><label>Phone</label><input type="tel" name="phone" id="phone" placeholder="eg. +447500000000" /></div>
+        </fieldset>
+        <fieldset class="delivery">
+            <legend>Delivery address</legend>
+            <div>
+                <label for="address">Address</label>
+                <textarea name="address" id="address"></textarea>
+            </div>
+            <div>
+                <label for="post-code">Post code</label>
+                <input type="text" name="post-code" id="post-code" />
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country" />
+            </div>
+        </fieldset>
+        <fieldset class="card">
+            <legend>Card details</legend>
+            <div>
+                <label>Card type</label>
+                <input type="radio" id="visa" name="card-type" value="VISA" />
+                <label for="visa" class="radio">VISA</label>
+                <input type="radio" id="amex" name="card-type" value="AmEx" />
+                <label for="amex" class="radio">AmEx</label>
+                <input type="radio" id="master" name="card-type" value="Mastercard" />
+                <label for="master" class="radio">Mastercard</label>
+            </div>
+            <div>
+                <label for="card-num">Card number</label>
+                <input type="text" name="card-num" id="card-num" />
+            </div>
+            <div>
+                <label for="sec-code">Security code</label>
+                <input type="text" name="sec-code" id="sec-code" />
+            </div>
+            <div>
+                <label for="name-on-card">Name on card</label>
+                <input type="text" name="name-on-card" id="name-on-card" placeholder="exact name as on the card" />
+            </div>
+        </fieldset>
+        <input type="submit" value="buy it!">
+    </form>
+</body>
+</html>

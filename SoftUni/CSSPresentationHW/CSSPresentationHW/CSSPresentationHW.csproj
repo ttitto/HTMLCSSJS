@@ -76,6 +76,9 @@
     <Content Include="Task02HawaiiVacation\img\VladoKHula.png" />
     <Content Include="Task02HawaiiVacation\styles\Task02HawaiiVacation.css" />
     <Content Include="Task02HawaiiVacation\Task02HawaiiVacation.html" />
+    <Content Include="Task03FormStyling\img\formBackground.jpg" />
+    <Content Include="Task03FormStyling\styles\Task03FormStyling.css" />
+    <Content Include="Task03FormStyling\Task03FormStyling.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
