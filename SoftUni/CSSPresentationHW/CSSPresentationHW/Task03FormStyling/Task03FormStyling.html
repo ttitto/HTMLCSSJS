@@ -8,13 +8,13 @@
 <body>
     <form action="" method="get">
         <fieldset class="your">
-            <legend>Your details</legend>
+            <legend>Step 1: Your details</legend>
             <div><label>Name</label><input type="text" name="name" id="name" placeholder="First and last name" /></div>
             <div><label>Email</label><input type="email" name="email" id="email" placeholder="example@domain.com" /></div>
             <div><label>Phone</label><input type="tel" name="phone" id="phone" placeholder="eg. +447500000000" /></div>
         </fieldset>
         <fieldset class="delivery">
-            <legend>Delivery address</legend>
+            <legend>Step 1: Delivery address</legend>
             <div>
                 <label for="address">Address</label>
                 <textarea name="address" id="address"></textarea>
@@ -29,15 +29,17 @@
             </div>
         </fieldset>
         <fieldset class="card">
-            <legend>Card details</legend>
+            <legend>Step 1: Card details</legend>
             <div>
                 <label>Card type</label>
-                <input type="radio" id="visa" name="card-type" value="VISA" />
-                <label for="visa" class="radio">VISA</label>
-                <input type="radio" id="amex" name="card-type" value="AmEx" />
-                <label for="amex" class="radio">AmEx</label>
-                <input type="radio" id="master" name="card-type" value="Mastercard" />
-                <label for="master" class="radio">Mastercard</label>
+                <span>
+                    <input type="radio" id="visa" name="card-type" value="VISA" />
+                    <label for="visa" class="radio">VISA</label>
+                    <input type="radio" id="amex" name="card-type" value="AmEx" />
+                    <label for="amex" class="radio">AmEx</label>
+                    <input type="radio" id="master" name="card-type" value="Mastercard" />
+                    <label for="master" class="radio">Mastercard</label>
+                </span>
             </div>
             <div>
                 <label for="card-num">Card number</label>

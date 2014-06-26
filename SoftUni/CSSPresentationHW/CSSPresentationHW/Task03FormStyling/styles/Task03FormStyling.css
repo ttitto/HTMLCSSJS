@@ -1,5 +1,5 @@
 ﻿
-html, body, form, fieldset, input, label {
+html, body, form, fieldset, input, label, div, span, legend {
     margin: 0;
     padding: 0;
     -moz-box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
 
 form {
     width: 396px;
-    padding: 20px;
+    padding: 18px;
     border-radius: 4px;
     background-image: url(../img/formBackground.jpg);
 }
@@ -23,19 +23,43 @@ form {
 fieldset {
     border: none;
 }
-fieldset legend{
-    color:#FFF;
-    
-}
-fieldset legend:before{
-    content:"Step 1: ";
-}
+
+    fieldset legend {
+        color: #FFF;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+        fieldset legend:first-of-type {
+            margin: 9px 0;
+        }
+
+
     fieldset div {
+        width: 360px;
+        min-height: 39px;
         text-align: center;
+        background: rgba(255,255,255,0.3);
+        border-radius: 4px;
+        border: #CEDBE8 solid thin;
+        margin-bottom: 2px;
+        line-height: 37px;
     }
 
         fieldset div > label:not(.radio) {
-            width: 30%;
+            width: 25%;
             overflow: hidden;
             float: left;
+            text-align: left;
+            padding-left: 9px;
         }
+
+    fieldset > div >input {
+        height: 24px;
+        width: 190px;
+        border-radius: 3px;
+    }
+    .card>div:first-of-type>label{
+        display:block;
+        width:100%;
+    }
