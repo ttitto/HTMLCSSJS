@@ -1,4 +1,4 @@
-﻿
+
 html, body, form, fieldset, input, label, div, span, legend {
     margin: 0;
     padding: 0;
@@ -16,18 +16,21 @@ body {
 form {
     width: 396px;
     padding: 18px;
+    text-align: center;
     border-radius: 4px;
     background-image: url(../img/formBackground.jpg);
 }
 
 fieldset {
     border: none;
+    margin-bottom: 8px;
 }
 
     fieldset legend {
         color: #FFF;
         font-size: 0.9rem;
         font-weight: bold;
+        text-align: left;
     }
 
         fieldset legend:first-of-type {
@@ -54,12 +57,72 @@ fieldset {
             padding-left: 9px;
         }
 
-    fieldset > div >input {
+    fieldset > div > input {
         height: 24px;
         width: 190px;
+        border: 0;
         border-radius: 3px;
+        padding-left: 5px;
     }
-    .card>div:first-of-type>label{
-        display:block;
-        width:100%;
+
+.delivery > div:first-of-type {
+    height: 105px;
+    padding-top: 5px;
+}
+
+.delivery textarea {
+    height: 80px;
+    width: 186px;
+    border-radius: 3px;
+}
+
+.card:first-of-type {
+    line-height: normal;
+}
+
+.card > div:first-of-type > label {
+    display: block;
+    width: 100%;
+}
+
+.card span {
+    display: block;
+}
+
+.visa, .master, .amex {
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 16px;
+}
+
+    .visa:before, .master:before, .amex:before {
+        background-repeat: no-repeat;
+        content: "";
+        height: 16px;
+        width: 27px;
+        display: inline-block;
     }
+
+    .visa:before {
+        background-image: url(../img/visa.png);
+    }
+
+    .master:before {
+        background-image: url(../img/master.png);
+    }
+
+    .amex:before {
+        background-image: url(../img/amex.png);
+    }
+
+input[type=submit] {
+    padding: 4px 24px;
+    margin: 0 auto;
+    background: #04152F;
+    color: #FFF;
+    font-size: .75rem;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 30px;
+}

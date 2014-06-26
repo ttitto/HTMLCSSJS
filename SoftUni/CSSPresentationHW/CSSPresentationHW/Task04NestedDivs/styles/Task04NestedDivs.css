@@ -1,0 +1,11 @@
+﻿body {
+    width: 954px;
+}
+
+div {
+    background-color: #FF9C00;
+    border: #234465 solid thin;
+    border-radius: 70px;
+    margin-right:5%;
+}
+
