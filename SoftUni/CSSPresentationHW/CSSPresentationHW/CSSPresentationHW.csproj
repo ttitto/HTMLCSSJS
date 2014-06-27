@@ -84,6 +84,12 @@
     <Content Include="Task03FormStyling\Task03FormStyling.html" />
     <Content Include="Task04NestedDivs\styles\Task04NestedDivs.css" />
     <Content Include="Task04NestedDivs\Task04NestedDivs.html" />
+    <Content Include="Task05Calculator\imgs\bg.png" />
+    <Content Include="Task05Calculator\imgs\buttons.png" />
+    <Content Include="Task05Calculator\imgs\calc.png" />
+    <Content Include="Task05Calculator\imgs\menu-bg.png" />
+    <Content Include="Task05Calculator\styles\Task05Calculator.css" />
+    <Content Include="Task05Calculator\Task05Calculator.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
