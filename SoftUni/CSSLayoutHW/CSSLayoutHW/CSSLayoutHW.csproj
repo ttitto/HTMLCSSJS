@@ -68,7 +68,9 @@
     <Content Include="Task01WebsiteHeader\imgs\notification.png" />
     <Content Include="Task01WebsiteHeader\imgs\search.png" />
     <Content Include="Task01WebsiteHeader\styles\Task01WebsiteHeader.css" />
+    <Content Include="Task01WebsiteHeader\styles\test.css" />
     <Content Include="Task01WebsiteHeader\Task01WebsiteHeader.html" />
+    <Content Include="Task01WebsiteHeader\test.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -5,7 +5,7 @@ html, body {
     width: 100%;
 }
 
-html, body, header, nav, ul, li, a, img {
+html, body, header, nav, ul, li, a, img, input {
     margin: 0;
     padding: 0;
     border: 0;
@@ -50,51 +50,81 @@ header {
 .logo {
     float: left;
     font-family: Tahoma;
-    height:49px;
+    height: 49px;
     position: absolute;
     top: 0;
     bottom: 0;
-    margin:auto 34px;
-    overflow:hidden;
+    margin: auto 34px;
 }
 
-    .logo>img {
-        float:left;
-        height:49px;
+    .logo > img {
+        float: left;
+        height: 49px;
+        margin-right: 4px;
     }
 
     .logo > div {
         font-family: Tahoma;
-        font-size: 22px;
-        line-height: 19px;
-        text-align:left;
-        letter-spacing:0.1em;
+        font-size: 1.5em;
+        line-height: .82em;
+        text-align: left;
+        letter-spacing: 0.015em;
     }
 
+        .logo > div > span {
+            font-size: .85em;
+            letter-spacing: .01em;
+        }
+
         .logo > div > div {
-            font-size: 12px;
-            line-height:12px;
+            font-size: 0.4em;
+            line-height: 0.4em;
             text-transform: lowercase;
-            text-align:right;
+            text-align: right;
+            width: 89%;
+            letter-spacing: -0.01em;
         }
 /*#endregion */
 /*#region SEARCH FORM and USER DATA */
-.search-image-message .message, .search-image-message .user, .search-image-message .search {
-    display: inline-block;
+.right {
+    float: right;
+    position: absolute;
+    height: 30px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    padding-right: 35px;
+}
+
+.search-image-message {
+    margin-bottom:15px;
+}
+
+    .search-image-message .message, .search-image-message .user, .search-image-message .search {
+        display: inline-block;
+    }
+
+.right form input {
+    height: 32px;
 }
 
 form input[type=image] {
     width: 20px;
+    background: white;
+    vertical-align: middle;
 }
 
 /*#endregion */
 /*#region NAVIGATION */
 nav {
     text-align: right;
+    font-size: 14px;
 }
 
     nav > ul li {
         display: inline-block;
+        margin-left: 40px;
     }
 
 /*#endregion */
