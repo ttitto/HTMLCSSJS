@@ -1,5 +1,10 @@
 ﻿/*#region INITIAL RESET */
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 html, body, header, nav, ul, li, a, img {
     margin: 0;
     padding: 0;
@@ -29,13 +34,15 @@ html, body, header, nav, ul, li, a, img {
 /*#endregion */
 /*#region HEADER */
 header {
-    height: 108px;
+    height: 109px;
+    width: 100%;
     background: #234465;
-    font-family: Arial, Tahoma;
-    font-size: 20px;
+    font-family: Tahoma;
+    font-size: 18px;
     text-transform: uppercase;
     color: #FFF;
     text-align: right;
+    position: relative;
 }
 
 /*#endregion */
@@ -43,42 +50,51 @@ header {
 .logo {
     float: left;
     font-family: Tahoma;
-    padding-left:50px;
-}
-.logo:before{
-background-image: url(../imgs/logo.png);
-background-repeat:no-repeat;
-width:100px;
-height:49px;
-content:" ";
-display:inline-block;
-float:left;
+    height:49px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin:auto 34px;
+    overflow:hidden;
 }
 
-
-/*#endregion */
-/*#region SEARCH FORM */
-.messages {
-}
-
-form {
-}
-
-    form input[type=image] {
-        width: 20px;
+    .logo>img {
+        float:left;
+        height:49px;
     }
+
+    .logo > div {
+        font-family: Tahoma;
+        font-size: 22px;
+        line-height: 19px;
+        text-align:left;
+        letter-spacing:0.1em;
+    }
+
+        .logo > div > div {
+            font-size: 12px;
+            line-height:12px;
+            text-transform: lowercase;
+            text-align:right;
+        }
+/*#endregion */
+/*#region SEARCH FORM and USER DATA */
+.search-image-message .message, .search-image-message .user, .search-image-message .search {
+    display: inline-block;
+}
+
+form input[type=image] {
+    width: 20px;
+}
 
 /*#endregion */
 /*#region NAVIGATION */
 nav {
+    text-align: right;
 }
 
-    nav > ul {
+    nav > ul li {
+        display: inline-block;
     }
-
-        nav > ul li {
-            display: inline-block;
-        }
-
 
 /*#endregion */
