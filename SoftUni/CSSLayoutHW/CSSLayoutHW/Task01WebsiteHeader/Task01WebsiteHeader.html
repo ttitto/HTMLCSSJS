@@ -7,17 +7,19 @@
 </head>
 <body>
     <header class="clearfix">
-        <div class="logo clearfix">
-            <img src="imgs/logo.png" alt="SoftUni logo" />
-            <div>
-                <div>beta</div>
-                <span>software </span>university
+        <a href="https://softuni.bg" target="_blank">
+            <div class="logo clearfix">
+                <img src="imgs/logo.png" alt="SoftUni logo" />
+                <div>
+                    <div>beta</div>
+                    <span>software </span>university
+                </div>
             </div>
-        </div>
+        </a>
         <div class="right clearfix">
             <div class="search-image-message">
                 <div class="message">0</div>
-                <div class="user">user</div>
+                <div class="user"> <a href="" class="dropdown">user</a></div>
                 <form action="" method="get" class="search">
                     <input type="search" placeholder="Search...">
                     <input type="image" src="imgs/search.png" />
@@ -26,12 +28,30 @@
 
             <nav class="clearfix">
                 <ul>
-                    <li><a href=""></a>news</li>
-                    <li class="dropdown">about the university</li>
-                    <li class="dropdown">training courses</li>
-                    <li><a href=""></a>for companies</li>
-                    <li><a href=""></a>forum</li>
-                    <li><a href=""></a>contacts</li>
+                    <li><a href="">news</a></li>
+                    <li>
+                        <a href="" class="dropdown">about the university</a>
+                        <ul>
+                            <li><a href="https://softuni.bg/about">За нас</a></li>
+                            <li><a href="https://softuni.bg/professions"></a>Професии</li>
+                            <li><a href="https://softuni.bg/plans"></a>Планове</li>
+                            <li><a href="https://softuni.bg/partner-universities"></a>Университети-партньори</li>
+                            <li><a href="https://softuni.bg/trainers"></a>Преподаватели</li>
+                            <li><a href="https://softuni.bg/dorms"></a>Общежития</li>
+                            <li><a href="https://softuni.bg/apply"></a>Кандидатстване</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="dropdown"> training courses</a>
+                        <ul>
+                            <li><a class="group" href="https://softuni.bg/trainings/courses/list">Курсове</a></li>
+                            <li><a href="https://softuni.bg/trainings/coursesinstances/details/1">Java Basics май 2014</a></li>
+                            <li><a href="https://softuni.bg/trainings/coursesinstances/details/2">C# Basics март 2014</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">for companies</a></li>
+                    <li><a href="">forum</a></li>
+                    <li><a href="">contacts</a></li>
                 </ul>
             </nav>
         </div>

@@ -68,9 +68,12 @@
     <Content Include="Task01WebsiteHeader\imgs\notification.png" />
     <Content Include="Task01WebsiteHeader\imgs\search.png" />
     <Content Include="Task01WebsiteHeader\styles\Task01WebsiteHeader.css" />
-    <Content Include="Task01WebsiteHeader\styles\test.css" />
     <Content Include="Task01WebsiteHeader\Task01WebsiteHeader.html" />
-    <Content Include="Task01WebsiteHeader\test.html" />
+    <Content Include="Task02WebsiteFooter\imgs\facebook.png" />
+    <Content Include="Task02WebsiteFooter\imgs\googleplus.png" />
+    <Content Include="Task02WebsiteFooter\imgs\twitter.png" />
+    <Content Include="Task02WebsiteFooter\styles\Task02WebsiteFooter.css" />
+    <Content Include="Task02WebsiteFooter\Task02WebsiteFooter.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,87 @@
+﻿/*#region INITIAL RESET */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Tahoma;
+    font-size: 9px;
+    color: #FFF;
+}
+
+html, body, header, div, span, ul, li, a, section, h2, p {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*#endregion */
+/*#region CLEARFIX */
+
+.clearfix {
+    -ms-zoom: 1;
+    zoom: 1;
+}
+
+    .clearfix:before, .clearfix:after {
+        content: "";
+        display: block;
+    }
+
+    .clearfix:after {
+        height: 0;
+        clear: both;
+    }
+
+/*#endregion */
+/*#region COMMON */
+
+.hidden {
+    display: none;
+}
+
+footer {
+    height: 278px;
+    background-color: #234465;
+}
+/*#endregion */
+/*#region LAYOUT */
+
+
+section {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/*#endregion */
+
+/*#region FAST LINKS SECTION */
+
+.fast-links {
+    margin-left: 118px;
+    font-size: 1.4rem;
+    margin-top: 55px;
+}
+
+    .fast-links li {
+        height: 43px;
+        width: 157px;
+        line-height: 43px;
+        border: #FF9C00 solid 2px;
+        text-align: center;
+        margin-bottom:10px;
+    }
+
+/*#endregion */
