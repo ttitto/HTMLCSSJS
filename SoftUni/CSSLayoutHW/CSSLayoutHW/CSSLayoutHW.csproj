@@ -74,6 +74,11 @@
     <Content Include="Task02WebsiteFooter\imgs\twitter.png" />
     <Content Include="Task02WebsiteFooter\styles\Task02WebsiteFooter.css" />
     <Content Include="Task02WebsiteFooter\Task02WebsiteFooter.html" />
+    <Content Include="Task03SoftuniNews\imgs\conf.jpg" />
+    <Content Include="Task03SoftuniNews\imgs\july-3.jpg" />
+    <Content Include="Task03SoftuniNews\imgs\summer.jpg" />
+    <Content Include="Task03SoftuniNews\styles\Task03WebsiteNews.css" />
+    <Content Include="Task03SoftuniNews\Task03WebsiteNews.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
