@@ -4,7 +4,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: Tahoma;
-    font-size: 9px;
+    font-size: 10px;
     color: #FFF;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 footer {
-    height: 278px;
+    height: 284px;
     background-color: #234465;
 }
 /*#endregion */
@@ -65,23 +65,72 @@ section {
     vertical-align: middle;
 }
 
+    section h2 {
+        color: orange;
+        margin-top: 54px;
+        font-size: 1.3rem;
+        margin-bottom: 16px;
+    }
+
 /*#endregion */
 
 /*#region FAST LINKS SECTION */
 
 .fast-links {
-    margin-left: 118px;
-    font-size: 1.4rem;
-    margin-top: 55px;
+    margin-left: 120px;
+    font-size: 1.3rem;
+    letter-spacing: .04rem;
+    margin-top: 56px;
 }
 
     .fast-links li {
-        height: 43px;
-        width: 157px;
-        line-height: 43px;
+        height: 44px;
+        width: 160px;
+        line-height: 39px;
         border: #FF9C00 solid 2px;
         text-align: center;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
+/*#endregion */
+
+/*#region ABOUT MENU */
+
+.about-menu {
+    margin-left: 30px;
+}
+
+section li, section > p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+/*#endregion */
+
+/*#region FRIENDS */
+
+.friends {
+    margin-left: 42px;
+}
 
 /*#endregion */
+/*#region OTHER */
+
+.other {
+    margin-left: 65px;
+    width: 260px;
+}
+
+    .other p {
+        line-height: 23px;
+    }
+
+.social li {
+    display: inline-block;
+    margin-top: 16px;
+    margin-right: 7px;
+}
+
+/*#endregion */
+.fb-likebox{
+    margin-top:36px;
+}
