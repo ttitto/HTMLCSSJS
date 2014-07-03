@@ -79,6 +79,12 @@
     <Content Include="Task03SoftuniNews\imgs\summer.jpg" />
     <Content Include="Task03SoftuniNews\styles\Task03WebsiteNews.css" />
     <Content Include="Task03SoftuniNews\Task03WebsiteNews.html" />
+    <Content Include="Task04PrettyWebsite\imgs\0003.jpg" />
+    <Content Include="Task04PrettyWebsite\imgs\0004.jpg" />
+    <Content Include="Task04PrettyWebsite\imgs\0005.jpg" />
+    <Content Include="Task04PrettyWebsite\imgs\headerBackground.jpg" />
+    <Content Include="Task04PrettyWebsite\styles\Task04PrettyWebsite.css" />
+    <Content Include="Task04PrettyWebsite\Task04PrettyWebsite.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

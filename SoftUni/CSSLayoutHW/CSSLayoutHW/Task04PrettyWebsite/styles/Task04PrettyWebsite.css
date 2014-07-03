@@ -1,0 +1,122 @@
+﻿/*#region INITIAL RESET */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 13px;
+    background-color: #101415;
+}
+
+html, body, div, span, header, footer, main, aside, a, ul, li, nav, section, article, h1, h2, p, img, figure, aside, small, time {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+/*#endregion */
+/*#region CLEARFIX */
+
+.clearfix {
+    zoom: 1;
+}
+
+    .clearfix:before, .clearfix:after {
+        display: block;
+        content: " ";
+    }
+
+    .clearfix:after {
+        height: 0;
+        clear: both;
+    }
+/*#endregion */
+/*#region HEADER */
+#wrapper > header {
+    height: 270px;
+    background-image: url(../imgs/headerBackground.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+    #wrapper > header > h1 {
+        position: absolute;
+        right: 40px;
+        bottom: 34px;
+        font-size: 1.9rem;
+        color: #FFF;
+    }
+
+    #wrapper > header > nav {
+        width: 100%;
+        position: absolute;
+        top: 270px;
+        left: 0;
+        background: linear-gradient(to bottom, #F0F0F0, #DADADA 100%);
+        border-bottom: #FFF solid 1px;
+        box-shadow: 0 2px 10px #FFF inset;
+    }
+
+
+        #wrapper > header > nav li {
+            float: left;
+            /*display: inline-block;
+            margin-left: -4px;*/
+        }
+
+        #wrapper > header > nav a {
+            text-transform: uppercase;
+            display: block;
+            padding: 11px 30px;
+            font-size: 1.1rem;
+            color: #626161;
+            border-right: #FFF solid 1px;
+        }
+
+
+/*#endregion */
+
+/*#region MAIN */
+
+main section, aside {
+    border: black solid 1px;
+    border-radius: 15px;
+}
+
+/*#endregion */
+
+
+@media only screen and (max-width: 900px) {
+    #wrapper {
+        max-width: 100%;
+    }
+}
