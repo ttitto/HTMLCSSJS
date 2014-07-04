@@ -66,6 +66,7 @@ div#wrapper {
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
+    margin-bottom: 66px;
 }
 
     #wrapper > header > h1 {
@@ -83,7 +84,7 @@ div#wrapper {
         left: 0;
         background: linear-gradient(to bottom, #F0F0F0, #DADADA 100%);
         border-bottom: #FFF solid 1px;
-        box-shadow: 0 2px 10px #FFF inset;
+        box-shadow: 0 2px 0 #DDD;
     }
 
 
@@ -102,21 +103,172 @@ div#wrapper {
             border-right: #FFF solid 1px;
         }
 
+            #wrapper > header > nav a:hover, #wrapper > header > nav a:active {
+                color: #FFF;
+                background-color: #B7B7B7;
+            }
+
+/*#endregion */
+/*#region MAIN */
+
+main {
+    width: 64.44%;
+    margin: 0 4.67%;
+    float: left;
+}
+
+aside {
+    width: 22.22%;
+    float: left;
+}
+
+main section, aside {
+    border: #DBDBDB solid 1px;
+    border-radius: 10px;
+    padding: 16px 2.22% 14px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+    main > section > h2, aside h2 {
+        font-size: 1.5rem;
+        color: #84BE19;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+main .products > h2 {
+    text-transform: capitalize;
+}
+
+main .welcome p > span {
+    font-weight: bold;
+}
+
+main .products article {
+    margin-bottom: 15px;
+}
+
+    main .products article > h1 {
+        font-size: .8rem;
+        margin-bottom: 10px;
+    }
+
+    main .products article > figure {
+        float: left;
+        margin-right: 15px;
+    }
 
 /*#endregion */
 
-/*#region MAIN */
+/*#region ASIDE */
+aside time {
+    font-weight: bold;
+}
 
-main section, aside {
-    border: black solid 1px;
-    border-radius: 15px;
+aside small {
+    text-decoration: underline;
+    color: #84BE19;
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+aside li:last-of-type small {
+    margin-bottom: 0;
+}
+
+aside.news {
+    background-color: #EEE;
+}
+
+aside.messages p > span {
+    font-weight: bold;
+}
+
+aside.messages p:last-of-type {
+    margin-bottom: 15px;
 }
 
 /*#endregion */
+/*#region FOOTER */
 
+footer {
+    height: 88px;
+    background: linear-gradient(to top, #84BF19 0, #A8DA39 100%);
+    border-top: #CFF2B2 solid 1px;
+    box-shadow: 0 -1px 0 #A9D949;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+    footer p {
+        position: absolute;
+        left: 16.33%;
+        top: 30px;
+    }
+
+        footer p > span a {
+            text-decoration: underline;
+        }
+
+        footer p > span:before {
+            content: " | ";
+        }
+/*#endregion */
+/*#region MEDIA QUERIES */
 
 @media only screen and (max-width: 900px) {
     #wrapper {
         max-width: 100%;
     }
 }
+
+@media only screen and (max-width: 740px) {
+    body {
+        font-size: 10px;
+    }
+
+    main {
+        width: 66.44%;
+        margin: 0 1.67%;
+    }
+
+        main section, aside {
+            padding: 16px 0.22% 14px;
+        }
+
+    aside {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #wrapper > header > nav li {
+        float: none;
+        width: 100%;
+        text-align:center;
+    }
+    #wrapper > header > nav li >a{
+        padding-top:2px;
+        padding-bottom:2px;
+    }
+   #wrapper>header{
+        margin-bottom:145px;
+    }
+}
+@media only screen and (max-width: 515px){
+    aside{
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+    main{
+      width:100%;
+    }
+    h1, h2{
+        text-align:center;
+    }
+}
+/*#endregion */
