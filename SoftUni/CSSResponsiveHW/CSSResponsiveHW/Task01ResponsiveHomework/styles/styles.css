@@ -1,0 +1,224 @@
+﻿/*#region INITIAL RESET */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Tahoma;
+    font-size: 15px;
+    background-color: #6698FF;
+}
+
+html, body, div, header, img, span, h1, a, nav, ul, li, section, article, p, aside, footer {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+/*#endregion */
+/*#region CLEARFIX */
+
+.clearfix, aside, section {
+    zoom: 1;
+}
+
+    .clearfix:after, .clearfix:before,
+    aside:before, aside:after,
+    section:before, section:after {
+        display: block;
+        content: " ";
+    }
+
+    .clearfix:after, aside:after, section:after {
+        height: 0;
+        clear: both;
+    }
+
+/*#endregion */
+/*#region HEADER */
+#wrapper > header {
+    height: 91px;
+    padding: 11px 11px;
+    border-bottom: #000 solid 1px;
+    margin-bottom: 26px;
+}
+
+    #wrapper > header h1 {
+        color: #FFF;
+        margin-bottom: 5px;
+    }
+
+    #wrapper > header img {
+        width: 187px;
+    }
+
+nav {
+    text-align: right;
+}
+
+    nav li {
+        display: inline-block;
+    }
+
+        nav li a {
+            display: block;
+            padding: 2px 10px;
+            margin-right: 5px;
+            font-size: 1.1em;
+            background: #FFF;
+            border: #000 solid thin;
+        }
+
+        nav li:last-of-type a {
+            margin-right: 0;
+        }
+/*#endregion */
+/*#region SECTION */
+section {
+    width: 72.92%;
+    float: left;
+}
+
+    section > article, aside, footer {
+        background: #E0EAFE;
+        border: #000 solid thin;
+        margin-bottom: 12px;
+    }
+
+    section > article, aside {
+        padding: 12px 12px 20px 12px;
+    }
+
+        section > article h1 {
+            font-size: 1.25em;
+            margin-bottom: 15px;
+        }
+
+        section > article p {
+            font-size: .8em;
+            text-indent: 25px;
+        }
+
+/*#endregion */
+/*#region ASIDE */
+
+aside {
+    width: 24.44%;
+    float: left;
+    margin-left: 2.10%;
+    font-size: .8em;
+}
+
+    aside li {
+        margin-bottom: 10px;
+    }
+
+/*#endregion */
+/*#region FOOTER */
+
+#wrapper > footer {
+    display: block;
+    height: 37px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 720px;
+    font-size: .6em;
+    text-align: center;
+}
+
+    #wrapper > footer a {
+        text-decoration: underline;
+        color: #551A8B;
+    }
+
+/*#endregion */
+/*#region MEDIA QUERIES */
+
+@media only screen and (max-width: 960px) {
+    #wrapper header a span {
+        vertical-align: 45%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #wrapper header a span {
+        vertical-align: baseline;
+    }
+
+    section, aside {
+        width: 100%;
+    }
+
+    aside {
+        margin: 0 0 12px 0;
+    }
+
+        aside ul {
+            text-align: center;
+        }
+
+        aside li {
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            width: 20%;
+            margin: 0 2.0%;
+        }
+}
+
+@media only screen and (max-width: 640px) {
+    #wrapper>header{
+        height: 153px;
+        margin-bottom: 106px;
+    }
+    #wrapper > header h1 {
+        margin: 0 auto;
+        width: 187px;
+        text-align:center;
+    }
+
+    #wrapper > header img {
+        display: block;
+    }
+    #wrapper>header nav li{
+        display:block;
+        width:100%;
+        text-align:center;
+        margin:0 auto;
+    }
+    #wrapper>header nav li a{
+        margin-right:0;
+    }
+    aside li {
+            display:block;
+            text-align: center;
+            width: 100%;
+            margin-bottom:20px;
+        }
+        aside li:last-of-type {
+            margin-bottom:0;
+        }
+         section > article h1{
+             text-align:center;
+         }
+}
+/*#endregion */
