@@ -56,9 +56,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Task03BootCamp\bootstrap\glyphicons-halflings-regular.eot" />
-    <Content Include="Task03BootCamp\bootstrap\glyphicons-halflings-regular.ttf" />
-    <Content Include="Task03BootCamp\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="Task03BootCamp\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Task03BootCamp\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Task03BootCamp\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -90,7 +90,7 @@
     <Content Include="Task03BootCamp\bootstrap\bootstrap-theme.min.css" />
     <Content Include="Task03BootCamp\bootstrap\bootstrap.min.css" />
     <Content Include="Task03BootCamp\bootstrap\bootstrap.min.js" />
-    <Content Include="Task03BootCamp\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="Task03BootCamp\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Task03BootCamp\styles\Task03BootCamp.css" />
     <Content Include="Task03BootCamp\Task03BootCamp.html" />
     <Content Include="Web.config" />
