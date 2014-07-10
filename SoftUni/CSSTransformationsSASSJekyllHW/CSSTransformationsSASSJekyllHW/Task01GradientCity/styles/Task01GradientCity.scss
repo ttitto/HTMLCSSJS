@@ -1,0 +1,33 @@
+﻿$myGray: #808080;
+/*#region MIXINS */
+
+
+@mixin outerBorder {
+    border: 3px double $myGray;
+}
+
+@mixin myGradient() {
+}
+/*#endregion */
+
+/*#region INITIAL RESET */
+
+
+html, body, div {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*#endregion */
+
+body {
+    font-family: Tahoma;
+    font-size: 14px;
+    
+}
+
+#wrapper {
+    @include outerBorder;
+}

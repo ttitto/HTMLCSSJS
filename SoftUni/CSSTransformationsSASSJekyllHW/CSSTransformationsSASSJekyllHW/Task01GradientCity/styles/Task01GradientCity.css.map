@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "Task01GradientCity.css",
+  "sources": [
+    "Task01GradientCity.scss"
+  ],
+  "names": [],
+  "mappings": ";;;AAeA,MAAM,MAAM;EACR,QAAQ;EACR,SAAS;EACT,iBAAiB;EACjB,oBAAoB;EACpB,YAAY;;;AAIhB;EACI,aAAa;EACb,WAAW;;AAIf;EAzBI,QAAQ"
+}
