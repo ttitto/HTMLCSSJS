@@ -1,4 +1,5 @@
 ﻿$myGray: #808080;
+$fontSize: 18px;
 /*#region MIXINS */
 
 
@@ -6,28 +7,166 @@
     border: 3px double $myGray;
 }
 
-@mixin myGradient() {
+@mixin innerBorder {
+    border: 1px solid $myGray;
 }
+
+@mixin simpleGradient( $gradient-type,$direction,$start-color, $end-color) {
+    @if ($gradient-type=='linear') {
+        background: #{$gradient-type}-gradient(to $direction,$start-color, $end-color);
+    }
+    @else {
+        background: #{$gradient-type}-gradient($start-color,$end-color);
+    }
+}
+
+@mixin fillInnerContainer($gradient-type, $direction) {
+    & > div:nth-of-type(1) {
+        @include simpleGradient($gradient-type, $direction,#300030,#FFF0FF);
+    }
+
+    & > div:nth-of-type(2) {
+        @include simpleGradient($gradient-type, $direction,#0000AF,#F0F0FF);
+    }
+
+    & > div:nth-of-type(3) {
+        @include simpleGradient($gradient-type, $direction,#003000,#F0FFF0);
+    }
+
+    & > div:nth-of-type(4) {
+        @include simpleGradient($gradient-type, $direction,#F5F500,#FFFFE0);
+    }
+
+    & > div:nth-of-type(5) {
+        @include simpleGradient($gradient-type, $direction,#EB9100,#FFFFE0);
+    }
+
+    & > div:nth-of-type(6) {
+        @include simpleGradient($gradient-type, $direction,#CD0000,#FFE6E6);
+    }
+}
+
 /*#endregion */
 
 /*#region INITIAL RESET */
 
 
-html, body, div {
+html, body, div, ul, h1, header, footer, section, article {
     margin: 0;
     padding: 0;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /*#endregion */
 
 body {
+    @include simpleGradient(linear, bottom, $myGray,#FFF);
     font-family: Tahoma;
-    font-size: 14px;
-    
+    font-size: $fontSize;
+    color: $myGray;
 }
 
 #wrapper {
     @include outerBorder;
+    width: 100%;
+    max-width: 960px;
+    padding: 10px;
+    margin: 0 auto;
+    background: #FFF;
+
+    & > header h1 {
+        margin-bottom: 15px;
+    }
+
+    & > header ul {
+        & li {
+            display: inline-block;
+
+            & a {
+                display: block;
+                padding: 10px 20px;
+                @include outerBorder;
+                margin: 5px 35px;
+            }
+
+            & a:hover {
+                @include innerBorder;
+                @include simpleGradient(linear, bottom, #808080,#FFF);
+                color: #FFF;
+            }
+        }
+    }
+
+    & > section, & > header, & > footer {
+        text-align: center;
+        @include outerBorder;
+        margin: 20px 10px;
+        padding: 10px 0;
+    }
+
+    & > section > header {
+        text-decoration: underline;
+
+        & h1 {
+            font-weight: normal;
+            font-size: $fontSize*1.1;
+        }
+    }
+
+    & > section article {
+        @include innerBorder;
+        margin: 20px;
+
+        & header h2 {
+            font-size: $fontSize/1.2;
+            font-weight: normal;
+        }
+    }
+
+    & > footer > h3 {
+        text-decoration: underline;
+        font-weight: normal;
+        font-size: $fontSize*1.1;
+    }
+
+    .innerContainer {
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin: 20px;
+        justify-content: center;
+
+        & > div {
+            width: 137px;
+            height: 150px;
+            border-radius: 15px;
+        }
+    }
+}
+
+.linear #vertical + .innerContainer {
+    @include fillInnerContainer(linear, bottom);
+}
+
+.linear #horizontal + .innerContainer {
+    @include fillInnerContainer(linear, right);
+}
+
+.linear #diagonal + .innerContainer {
+    @include fillInnerContainer(linear,bottom right);
+}
+
+.radial #radial + article .innerContainer {
+    @include fillInnerContainer(radial,null);
 }
