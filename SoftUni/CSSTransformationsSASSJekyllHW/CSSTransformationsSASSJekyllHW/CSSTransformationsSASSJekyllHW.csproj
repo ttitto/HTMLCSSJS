@@ -66,6 +66,28 @@
     <Content Include="Task01GradientCity\styles\Task01GradientCity.css.map">
       <DependentUpon>Task01GradientCity.css</DependentUpon>
     </Content>
+    <Content Include="Task02CrazyShakyGallery\images\3d-pictures-red-blue-of-animals-.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\4-39342_0.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\a.baa-Funny-cute-sleeping-dog.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\cute-kitten.jpeg" />
+    <Content Include="Task02CrazyShakyGallery\images\goat-babies.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\Hair-Raising-Photographs-05.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\iclrvo.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\l-Cutest-little-Sea-Lion-ever-in-the-Galapagos.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\SQHyw2a.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\ulyssesbutterfly-620x310.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\usa-panda-twins.jpg" />
+    <Content Include="Task02CrazyShakyGallery\images\Very-Funny-Animal-Faces-8.jpg" />
+    <Content Include="Task02CrazyShakyGallery\styles\Task02CrazyShakyGallery.css">
+      <DependentUpon>Task02CrazyShakyGallery.scss</DependentUpon>
+    </Content>
+    <Content Include="Task02CrazyShakyGallery\styles\Task02CrazyShakyGallery.min.css">
+      <DependentUpon>Task02CrazyShakyGallery.css</DependentUpon>
+    </Content>
+    <Content Include="Task02CrazyShakyGallery\styles\Task02CrazyShakyGallery.scss" />
+    <Content Include="Task02CrazyShakyGallery\styles\Task02CrazyShakyGallery.css.map">
+      <DependentUpon>Task02CrazyShakyGallery.css</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,11 +100,13 @@
     <Content Include="Task01GradientCity\target\target.html" />
     <Content Include="Task01GradientCity\target\targetTask01GradientCity.png" />
     <Content Include="Task01GradientCity\Task01GradientCity.html" />
+    <Content Include="Task02CrazyShakyGallery\Task02CrazyShakyGallery.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
